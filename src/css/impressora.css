@@ -1,0 +1,25 @@
+/* Modo de impressão */
+
+@media print {
+  h2, h3 {
+    text-align: left;
+  }
+
+  article {
+    width: 100;
+  }
+
+  .material-symbols-outlined {
+    display: none;
+  }
+
+  article::after {
+    content: "Esse artigo foi impresso através do site www.noticias.com.br";
+    font-weight: bold;
+    font-style: oblique;
+  }
+
+  footer {
+    display: none;
+  }
+}

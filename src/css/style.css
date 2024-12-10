@@ -1,0 +1,82 @@
+/* Versão Mobile */
+
+body {
+    background-color:  rgb(230, 227, 227);
+}
+
+header, footer {
+    background-color: grey;
+}
+
+header > h1 {
+    padding: 10px;
+    font-size: 2.2em;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+}
+
+#menu > ul {
+    list-style: none;
+}
+
+#menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+#menu > ul > li > a:hover {
+    background-color: rgb(85, 82, 82);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1, h2, h3, a {
+    font-style: oblique;
+    text-align: center;
+}
+
+article > h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2, p {
+    text-indent: 20px;
+}
+
+article > p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+footer > h3 {
+    padding: 20px;
+    text-align: center;
+}
