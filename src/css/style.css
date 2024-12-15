@@ -41,10 +41,6 @@ header > h1 {
     border-top: 2px solid gray;
 }
 
-#menu > ul > li > a:hover {
-    background-color: rgb(85, 82, 82);
-}
-
 main {
     width: 90vw;
     background-color: white;

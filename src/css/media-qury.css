@@ -28,7 +28,6 @@
     }
 
     #menu > ul > li > a:hover {
-        background-color: grey;
         text-decoration: underline;
     }
     
